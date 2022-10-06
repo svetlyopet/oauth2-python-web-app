@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Simple Test Application for demonstrating AuthCode with PKCE flow</title>
+    <meta name="description" content="Simple Test Application for demonstrating AuthCode with PKCE flow."/>
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static',filename='css/bootstrap.css') }}">
+</head>
+<body>
+
+<!--Header Section-->
+<section class="bg-gradient pt-5 pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row align-items-center justify-content-between">
+                <div class="heading-brand">Flask framework</div>
+                <a href="https://github.com/svetlyopet/oauth2-python-web-app" class="btn btn-dark" target="_blank">Repository</a>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-8 mx-auto text-center">
+                <h1>Simple Test Application for demonstrating AuthCode with PKCE flow</h1>
+                <a href="http://localhost:5000/demo" class="btn btn-success svg-icon">
+                    Run Test
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-9 mx-auto">
+                <div class="code-window">
+                    <pre><code class="language-javascript">
+{{ json_formatted }}
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
